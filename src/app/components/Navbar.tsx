@@ -37,6 +37,13 @@ export default function Navbar() {
                 {link}
               </a>
             ))}
+            <a
+              href="#contact"
+              onClick={() => setMenuOpen(false)}
+              className="mt-2 rounded-2xl bg-dark px-9 py-5 text-center text-lg text-white"
+            >
+              Request a quote
+            </a>
           </nav>
         )}
       </Container>

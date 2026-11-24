@@ -15,7 +15,15 @@ const testimonials = [
   { text: quote, name: "John Smith", role: "Marketing Director at XYZ Corp" },
 ];
 
-function TestimonialCard({ text, name, role }: { text: string; name: string; role: string }) {
+function TestimonialCard({
+  text,
+  name,
+  role,
+}: {
+  text: string;
+  name: string;
+  role: string;
+}) {
   return (
     <div className="w-[280px] shrink-0 sm:w-[480px] lg:w-[606px]">
       <div className="relative rounded-[45px] border border-pink px-7 py-8 text-white md:px-[52px] md:py-12 md:text-lg">
@@ -48,8 +56,18 @@ function Star({ color }: { color: string }) {
 
 function Arrow({ left }: { left?: boolean }) {
   return (
-    <svg width="20" height="16" viewBox="0 0 20 16" className={left ? "rotate-180" : ""}>
-      <path d="M0 8H19M12 1L19 8L12 15" fill="none" stroke="white" strokeWidth="2" />
+    <svg
+      width="20"
+      height="16"
+      viewBox="0 0 20 16"
+      className={left ? "rotate-180" : ""}
+    >
+      <path
+        d="M0 8H19M12 1L19 8L12 15"
+        fill="none"
+        stroke="white"
+        strokeWidth="2"
+      />
     </svg>
   );
 }
@@ -57,7 +75,6 @@ function Arrow({ left }: { left?: boolean }) {
 export default function Testimonials() {
   const [current, setCurrent] = useState(0);
   const total = testimonials.length;
-
   const prev = (current - 1 + total) % total;
   const next = (current + 1) % total;
 
@@ -83,7 +100,11 @@ export default function Testimonials() {
 
             <div className="flex gap-5">
               {testimonials.map((_, index) => (
-                <button key={index} onClick={() => setCurrent(index)} aria-label={`Testimonial ${index + 1}`}>
+                <button
+                  key={index}
+                  onClick={() => setCurrent(index)}
+                  aria-label={`Testimonial ${index + 1}`}
+                >
                   <Star color={index === current ? "#f7a9c5" : "white"} />
                 </button>
               ))}

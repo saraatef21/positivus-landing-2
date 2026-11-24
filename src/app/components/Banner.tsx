@@ -9,8 +9,8 @@ export default function Banner() {
           <div className="flex flex-col gap-6 lg:max-w-[500px]">
             <h3 className="text-3xl font-medium">Let’s make things happen</h3>
             <p className="text-lg">
-              Contact us today to learn more about how our digital marketing services can help your
-              business grow and succeed online.
+              Contact us today to learn more about how our digital marketing
+              services can help your business grow and succeed online.
             </p>
             <div>
               <Button text="Get your free proposal" />

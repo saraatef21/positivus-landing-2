@@ -6,7 +6,6 @@ type ServiceCardProps = {
 };
 
 export default function ServiceCard({ title1, title2, image, color }: ServiceCardProps) {
-  // الألوان حسب نوع الكارت
   let cardBg = "bg-light-pink";
   let titleBg = "bg-pink";
 

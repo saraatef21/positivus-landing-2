@@ -1,7 +1,7 @@
 import Container from "./Container";
 
 const links = ["About us", "Services", "Use Cases", "Pricing", "Blog"];
-const socials = ["in", "f", "X"];
+const socials = ["linkedin", "facebook", "twitter"];
 
 export default function Footer() {
   return (
@@ -19,14 +19,10 @@ export default function Footer() {
               ))}
             </nav>
 
-            <div className="flex gap-4">
+            <div className="flex gap-5">
               {socials.map((social) => (
-                <a
-                  key={social}
-                  href="#"
-                  className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-sm font-bold text-dark"
-                >
-                  {social}
+                <a key={social} href="#">
+                  <img src={`/images/social/${social}.svg`} alt={social} className="h-[30px] w-[30px]" />
                 </a>
               ))}
             </div>

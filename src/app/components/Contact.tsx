@@ -1,4 +1,4 @@
-"use client"; // عشان بنستخدم onSubmit
+"use client";
 
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
@@ -7,7 +7,7 @@ const inputStyle = "w-full rounded-2xl border border-black bg-white px-7 py-4 te
 
 export default function Contact() {
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault(); // يمنع الصفحة إنها تعمل reload
+    event.preventDefault();
     alert("Thanks! Your message has been sent.");
   }
 
