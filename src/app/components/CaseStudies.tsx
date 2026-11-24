@@ -16,7 +16,6 @@ export default function CaseStudies() {
           text="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
         />
 
-        {/* موبايل: تحت بعض — تابلت وأكبر: 3 أعمدة */}
         <div className="grid gap-8 rounded-[45px] bg-dark p-8 text-white md:grid-cols-3 md:p-16">
           {cases.map((text) => (
             <div
