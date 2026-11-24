@@ -1,4 +1,3 @@
-// عنوان كل سكشن: كلمة بخلفية بينك + وصف جنبها
 type SectionTitleProps = {
   title: string;
   text: string;
