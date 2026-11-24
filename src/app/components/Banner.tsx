@@ -17,7 +17,6 @@ export default function Banner() {
             </div>
           </div>
 
-          {/* الصورة بتظهر من أول اللابتوب بس */}
           <img
             src="/images/cta.svg"
             alt=""
