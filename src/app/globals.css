@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* ألوان الموقع: بتستخدمها كده bg-pink أو text-dark */
 @theme {
   --color-pink: #f7a9c5;
   --color-light-pink: #fff0f5;
