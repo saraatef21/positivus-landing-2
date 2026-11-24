@@ -2,11 +2,10 @@ type ServiceCardProps = {
   title1: string;
   title2: string;
   image: string;
-  color: "light" | "pink" | "dark"; // لون الكارت: واحد من التلاتة دول بس
+  color: "light" | "pink" | "dark"; 
 };
 
 export default function ServiceCard({ title1, title2, image, color }: ServiceCardProps) {
-  // الألوان حسب نوع الكارت
   let cardBg = "bg-light-pink";
   let titleBg = "bg-pink";
 
