@@ -11,7 +11,6 @@ export default function Services() {
           text="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
         />
 
-        {/* كارت في الصف على الموبايل والتابلت، و2 على اللابتوب */}
         <div className="grid gap-10 lg:grid-cols-2">
           <ServiceCard title1="Search engine" title2="optimization" image="seo.png" color="light" />
           <ServiceCard title1="Pay-per-click" title2="advertising" image="ppc.png" color="pink" />
