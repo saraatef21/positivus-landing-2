@@ -1,4 +1,4 @@
-"use client"; // عشان بنستخدم useState
+"use client";
 
 import { useState } from "react";
 import Container from "./Container";
@@ -26,7 +26,6 @@ export default function Navbar() {
             </a>
           </nav>
 
-          {/* زرار المنيو للموبايل والتابلت */}
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-3xl xl:hidden">
             {menuOpen ? "✕" : "☰"}
           </button>
