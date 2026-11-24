@@ -5,7 +5,6 @@ export default function Hero() {
   return (
     <section>
       <Container>
-        {/* موبايل: تحت بعض — لابتوب: الكلام شمال والصورة يمين */}
         <div className="flex flex-col items-center gap-10 lg:flex-row">
           <div className="flex flex-col gap-8 lg:w-1/2">
             <h1 className="text-4xl font-medium md:text-6xl">

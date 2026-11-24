@@ -8,7 +8,6 @@ export default function Footer() {
     <footer className="mt-20 lg:mt-32">
       <Container>
         <div className="rounded-t-[45px] bg-dark px-6 py-12 text-white md:px-16">
-          {/* اللوجو + اللينكات + السوشيال */}
           <div className="flex flex-col items-center gap-8 lg:flex-row lg:justify-between">
             <img src="/images/logo-white.svg" alt="Positivus" className="h-8" />
 
@@ -33,7 +32,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* بيانات التواصل + الاشتراك */}
           <div className="mt-12 flex flex-col gap-10 xl:flex-row xl:justify-between">
             <div className="flex flex-col gap-5 text-lg">
               <h3 className="w-fit rounded-md bg-pink px-2 text-xl font-medium text-black">Contact us:</h3>

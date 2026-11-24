@@ -1,10 +1,9 @@
-// خطوة واحدة من خطوات الشغل
 type ProcessStepProps = {
   number: number;
   title: string;
   text: string;
   isOpen: boolean;
-  onClick: () => void; // function بتشتغل لما تدوس على الخطوة
+  onClick: () => void;
 };
 
 export default function ProcessStep({ number, title, text, isOpen, onClick }: ProcessStepProps) {

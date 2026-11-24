@@ -1,4 +1,4 @@
-"use client"; // عشان بنستخدم useState
+"use client";
 
 import { useState } from "react";
 import Container from "./Container";
@@ -14,7 +14,6 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <img src="/images/logo.svg" alt="Positivus" className="h-8 lg:h-9" />
 
-          {/* لينكات الشاشات الكبيرة */}
           <nav className="hidden items-center gap-10 xl:flex">
             {links.map((link) => (
               <a key={link} href="#" className="text-xl hover:underline">
@@ -26,7 +25,6 @@ export default function Navbar() {
             </a>
           </nav>
 
-          {/* زرار المنيو للموبايل والتابلت */}
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-3xl xl:hidden">
             {menuOpen ? "✕" : "☰"}
           </button>

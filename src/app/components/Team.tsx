@@ -12,7 +12,6 @@ export default function Team() {
           text="Meet the skilled and experienced team behind our successful digital marketing strategies"
         />
 
-        {/* كارت في الصف على الموبايل، 2 على التابلت، 3 على اللابتوب */}
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           <TeamCard
             name="John Smith"

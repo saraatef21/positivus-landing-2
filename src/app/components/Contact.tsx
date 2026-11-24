@@ -3,7 +3,6 @@
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
 
-// شكل خانات الكتابة (مستخدم 3 مرات تحت)
 const inputStyle = "w-full rounded-2xl border border-black bg-white px-7 py-4 text-lg";
 
 export default function Contact() {
@@ -50,7 +49,6 @@ export default function Contact() {
             </button>
           </form>
 
-          {/* الرسمة بتظهر في الشاشات الكبيرة بس */}
           <img
             src="/images/contact.svg"
             alt=""

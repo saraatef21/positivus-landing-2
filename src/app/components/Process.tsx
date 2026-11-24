@@ -1,11 +1,10 @@
-"use client"; // عشان بنستخدم useState
+"use client";
 
 import { useState } from "react";
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
 import ProcessStep from "./ProcessStep";
 
-// الديزاين فيه وصف للخطوة الأولى بس، والباقي نصوص مؤقتة
 const steps = [
   {
     title: "Consultation",
@@ -19,7 +18,6 @@ const steps = [
 ];
 
 export default function Process() {
-  // رقم الخطوة المفتوحة (0 = الأولى). -1 يعني كله مقفول
   const [openStep, setOpenStep] = useState(0);
 
   return (
