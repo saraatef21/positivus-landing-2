@@ -1,7 +1,6 @@
-// الزرار الأسود: بتبعتله الكلام اللي جواه
 type ButtonProps = {
   text: string;
-  href?: string; // علامة ? معناها إنه اختياري
+  href?: string;ا
 };
 
 export default function Button({ text, href = "#contact" }: ButtonProps) {
